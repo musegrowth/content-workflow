@@ -6,14 +6,14 @@
 - [ ] Target URL is provided and readable
 - [ ] SKILL.md is loaded and active
 - [ ] Checklist.md is loaded
-- [ ] Internal linking page URLs are provided (required for internal link placement)
+- [ ] Internal linking page URLs are provided or Musemind default internal link targets are used
 
 ---
 
 ### Step 2: Job Classification
 - [ ] Job type determined from SKILL Step 1 (New Blog Post / Landing Page / Content Improvement / SEO Brief)
-- [ ] If a target URL is provided → classified as Content Improvement
-- [ ] If job type is ambiguous → ask the user before proceeding
+- [ ] If a target URL is provided -> classified as Content Improvement
+- [ ] If job type is ambiguous -> ask the user before proceeding
 
 ---
 
@@ -55,19 +55,19 @@
 - [ ] No generic filler opening (e.g., "In today's digital landscape")
 - [ ] TL;DR table added directly after the introduction
 - [ ] Active voice used throughout
-- [ ] No em-dashes (—) anywhere in the content
+- [ ] No em dashes anywhere in the content
 - [ ] No excessively short sentences (2 to 4 words only)
 - [ ] Paragraph length: 2 to 4 sentences, one idea per paragraph
 - [ ] Primary keyword appears naturally in: H1, first 100 words, at least one H2, meta title, meta description
 - [ ] Semantic entities and related keywords covered naturally
 - [ ] Trust signals incorporated (proof, examples, realistic claims)
 - [ ] No vague claims ("stunning designs", "world-class solutions", etc.)
-- [ ] No standalone promotional CTA sentences (e.g., "Ready to build X? Talk to Musemind.") — CTAs must be embedded within a dedicated CTA section block, not dropped as isolated lines
+- [ ] No standalone promotional CTA sentences (e.g., "Ready to build X? Talk to Musemind.") - CTAs must be embedded within a dedicated CTA section block, not dropped as isolated lines
 - [ ] Moderate CTA placed in the middle of the content
 - [ ] Moderate CTA placed at the end of the content
 - [ ] 8 to 12 FAQs included (unless topic does not justify it)
 - [ ] FAQs section uses `## FAQs` (H2), each question as `### Question?` (H3), each answer as a plain paragraph
-- [ ] AI Relevance and Role section included with proper heading, covering: current role, empowerment, future impact, practical application
+- [ ] AI Relevance and Role section included when AI meaningfully affects the topic, covering: current role, empowerment, future impact, practical application
 - [ ] Content structure is consistent and logical throughout
 
 ---
@@ -101,7 +101,7 @@
 - [ ] Image suggestions provided for each major section
 - [ ] File names provided for each image
 - [ ] Alt text is descriptive and not keyword-stuffed
-- [ ] Image suggestions table produced: Section / Image Idea / File Name / Alt Text
+- [ ] Image suggestions table produced: Section / Image Idea / Image Generation Prompt / File Name / Alt Text
 
 ---
 
@@ -116,6 +116,6 @@
 ---
 
 ### Step 12: File Output
-- [ ] File 1 — Full Output saved as `[slug]-full-output.md`: includes audit, gap analysis, strategy, full content, fact-check audit, internal linking plan, image suggestions, and this checklist with pass/fail status
-- [ ] File 2 — Content Only saved as `[slug]-content-only.md`: contains only the final publishable content with no workflow or audit sections
-- [ ] Both files saved inside the `output/` folder
+- [ ] File 1 - Full Output saved as `[slug]-full-output.md`: includes audit, gap analysis, strategy, full content, fact-check audit, internal linking plan, image suggestions, and this checklist with pass/fail status
+- [ ] File 2 - Content Only saved as `[slug]-content-only.md`: contains only the final publishable content with no workflow or audit sections
+- [ ] Both files saved inside `output/[slug]/`
